@@ -50,9 +50,9 @@ workflows:
   build-and-deploy-to-uat:
     jobs:
       - build-and-test
-      - deploy-to-uat:
-          requires:
-            - build-and-test
-          filters:
-            branches:
-              only: uat
+      # - deploy-to-uat:
+      #     requires:
+      #       - build-and-test
+      #     filters:
+      #       branches:
+      #         only: uat
