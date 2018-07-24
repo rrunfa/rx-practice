@@ -9,7 +9,7 @@
 import Foundation
 import Mapper
 
-struct Issue: MappableIssue {
+struct Issue: Mappable {
     
     let identifier: Int
     let number: Int

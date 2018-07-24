@@ -1,0 +1,58 @@
+version: 2
+
+jobs:
+  build-and-test:
+
+    macos:
+      xcode: "9.4.0"
+
+    steps:
+      - checkout
+
+      - run: bundle install
+
+      # - run:
+      #     name: Run tests
+      #     command: fastlane test
+
+      - run:
+          name: Build app
+          command: fastlane beta
+
+      - store_test_results:
+          path: test_output/report.xml
+      - store_artifacts:
+          path: /tmp/test-results
+          destination: scan-test-results
+      - store_artifacts:
+          path: ~/Library/Logs/scan
+          destination: scan-logs
+
+  deploy-to-uat:
+    macos:
+      xcode: "9.3.0"
+
+    steps:
+      - checkout
+
+      - run: bundle install
+
+      - run:
+          name: Set up code signing
+          command: fastlane match appstore --readonly
+
+      - run:
+          name: Build IPA
+          command: fastlane beta
+
+workflows:
+  version: 2
+  build-and-deploy-to-uat:
+    jobs:
+      - build-and-test
+      - deploy-to-uat:
+          requires:
+            - build-and-test
+          filters:
+            branches:
+              only: uat

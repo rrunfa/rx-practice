@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34E012FD7FFE602031320DB3 /* Pods_RxIssuesSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFFF84B94759BAEBB70C23F /* Pods_RxIssuesSample.framework */; };
-		B53D6F112106EDD800CFE694 /* IssueOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D6F102106EDD800CFE694 /* IssueOther.swift */; };
-		B53D6F132106EDF900CFE694 /* MappableIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D6F122106EDF900CFE694 /* MappableIssue.swift */; };
-		B53D6F152106F90100CFE694 /* IocTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D6F142106F90100CFE694 /* IocTest.swift */; };
 		B56EDA39210611310052B692 /* IssueTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56EDA38210611310052B692 /* IssueTrackerModel.swift */; };
 		B5D75EB42105CAC800ABD0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D75EB32105CAC800ABD0B9 /* Assets.xcassets */; };
 		B5D75EC62105CB2F00ABD0B9 /* FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D75EC12105CB2F00ABD0B9 /* FrameExtension.swift */; };
@@ -27,9 +24,6 @@
 /* Begin PBXFileReference section */
 		005B2DD989837FE3A2E2532C /* Pods-RxIssuesSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIssuesSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxIssuesSample/Pods-RxIssuesSample.debug.xcconfig"; sourceTree = "<group>"; };
 		4CFFF84B94759BAEBB70C23F /* Pods_RxIssuesSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxIssuesSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B53D6F102106EDD800CFE694 /* IssueOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueOther.swift; sourceTree = "<group>"; };
-		B53D6F122106EDF900CFE694 /* MappableIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappableIssue.swift; sourceTree = "<group>"; };
-		B53D6F142106F90100CFE694 /* IocTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IocTest.swift; sourceTree = "<group>"; };
 		B56EDA38210611310052B692 /* IssueTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTrackerModel.swift; sourceTree = "<group>"; };
 		B5D75EA92105CAC800ABD0B9 /* RxIssuesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxIssuesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D75EB32105CAC800ABD0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,16 +66,6 @@
 				4CFFF84B94759BAEBB70C23F /* Pods_RxIssuesSample.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B53D6F0F2106ED7900CFE694 /* Ioc */ = {
-			isa = PBXGroup;
-			children = (
-				B53D6F102106EDD800CFE694 /* IssueOther.swift */,
-				B53D6F122106EDF900CFE694 /* MappableIssue.swift */,
-				B53D6F142106F90100CFE694 /* IocTest.swift */,
-			);
-			path = Ioc;
 			sourceTree = "<group>";
 		};
 		B5D75EA02105CAC800ABD0B9 = {
@@ -137,7 +121,6 @@
 		B5D75ED42105DD3000ABD0B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B53D6F0F2106ED7900CFE694 /* Ioc */,
 				B5D75ED52105DD3000ABD0B9 /* Issue.swift */,
 				B5D75ED62105DD3000ABD0B9 /* Repository.swift */,
 				B56EDA38210611310052B692 /* IssueTrackerModel.swift */,
@@ -279,12 +262,9 @@
 				B56EDA39210611310052B692 /* IssueTrackerModel.swift in Sources */,
 				B5D75ED72105DD3000ABD0B9 /* Issue.swift in Sources */,
 				B5D75ECD2105D05D00ABD0B9 /* IssuesListViewController.swift in Sources */,
-				B53D6F152106F90100CFE694 /* IocTest.swift in Sources */,
 				B5D75EC82105CB2F00ABD0B9 /* AppDelegate.swift in Sources */,
 				B5D75ECE2105D05D00ABD0B9 /* GithubEndpoint.swift in Sources */,
 				B5D75EC62105CB2F00ABD0B9 /* FrameExtension.swift in Sources */,
-				B53D6F132106EDF900CFE694 /* MappableIssue.swift in Sources */,
-				B53D6F112106EDD800CFE694 /* IssueOther.swift in Sources */,
 				B5D75ED82105DD3000ABD0B9 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,15 +391,17 @@
 			baseConfigurationReference = 005B2DD989837FE3A2E2532C /* Pods-RxIssuesSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 286GDGBW36;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ZQQT4R272;
 				INFOPLIST_FILE = "$(SRCROOT)/RxIssuesSample/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rrunfa.RxIssuesSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrunfa.RxIssuesSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2666a81e-028c-4742-ae1a-d012b9865039";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rrunfa.RxIssuesSample";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,15 +412,16 @@
 			baseConfigurationReference = EF0A91E5C406A9FC5A86AA0A /* Pods-RxIssuesSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 286GDGBW36;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/RxIssuesSample/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rrunfa.RxIssuesSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrunfa.RxIssuesSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
