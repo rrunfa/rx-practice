@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/master.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/MoyaProvider+Rx.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/MoyaProvider+Rx.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/MoyaProvider+Rx.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/MoyaProvider+Rx~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/MoyaProvider+Rx.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/Observable+Response.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Observable+Response.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Observable+Response.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Observable+Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Observable+Response.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/Single+Response.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Single+Response.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Single+Response.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Single+Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.build/Single+Response.swiftdeps"
+  }
+}

@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "filter"]
+- ["7RxSwift14ObservableTypeP", "filter"]
+- ["7RxSwift14ObservableTypeP", "filterSuccessfulStatusCodes"]
+- ["7RxSwift14ObservableTypeP", "filterSuccessfulStatusAndRedirectCodes"]
+- ["7RxSwift14ObservableTypeP", "mapImage"]
+- ["7RxSwift14ObservableTypeP", "mapJSON"]
+- ["7RxSwift14ObservableTypeP", "mapString"]
+- ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "filterCompleted"]
+- ["7RxSwift14ObservableTypeP", "filterProgress"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "Bool"
+- "BooleanLiteralType"
+- "ClosedRange"
+- "Decodable"
+- "Double"
+- "Image"
+- "Int"
+- "JSONDecoder"
+- "Observable"
+- "ObservableType"
+- "ProgressResponse"
+- "Response"
+- "String"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "filterSuccessfulStatusCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapImage"]
+- !private ["s28CustomDebugStringConvertibleP", "mapJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "mapString"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s9DecodableP", "none"]
+- !private ["s9DecodableP", "some"]
+- !private ["s9EncodableP", "none"]
+- !private ["s9EncodableP", "some"]
+- !private ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["s9EquatableP", "filterSuccessfulStatusCodes"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "mapImage"]
+- !private ["s9EquatableP", "mapJSON"]
+- !private ["s9EquatableP", "mapString"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift10ObservableC", "map"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Bool"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ClosedRange"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Decodable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Double"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Image"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Int"]
+- ["7RxSwift25ObservableConvertibleTypeP", "JSONDecoder"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ProgressResponse"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Response"]
+- ["7RxSwift25ObservableConvertibleTypeP", "String"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "filter"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "Bool"]
+- ["7RxSwift14ObservableTypeP", "ClosedRange"]
+- ["7RxSwift14ObservableTypeP", "Decodable"]
+- ["7RxSwift14ObservableTypeP", "Double"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "Image"]
+- ["7RxSwift14ObservableTypeP", "Int"]
+- ["7RxSwift14ObservableTypeP", "JSONDecoder"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "ProgressResponse"]
+- ["7RxSwift14ObservableTypeP", "Response"]
+- ["7RxSwift14ObservableTypeP", "String"]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- ["7RxSwift14ObservableTypeP", "filter"]
+- ["7RxSwift14ObservableTypeP", "filterCompleted"]
+- ["7RxSwift14ObservableTypeP", "filterProgress"]
+- ["7RxSwift14ObservableTypeP", "filterSuccessfulStatusAndRedirectCodes"]
+- ["7RxSwift14ObservableTypeP", "filterSuccessfulStatusCodes"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "mapImage"]
+- ["7RxSwift14ObservableTypeP", "mapJSON"]
+- ["7RxSwift14ObservableTypeP", "mapString"]
+- !private ["Sq", "none"]
+- !private ["Sq", "some"]
+- !private ["4Moya16ProgressResponseV", "completed"]
+- !private ["4Moya16ProgressResponseV", "progress"]
+- !private ["4Moya16ProgressResponseV", "response"]
+- !private ["4Moya8ResponseC", "filter"]
+- !private ["4Moya8ResponseC", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["4Moya8ResponseC", "filterSuccessfulStatusCodes"]
+- !private ["4Moya8ResponseC", "map"]
+- !private ["4Moya8ResponseC", "mapImage"]
+- !private ["4Moya8ResponseC", "mapJSON"]
+- !private ["4Moya8ResponseC", "mapString"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "10Foundation11JSONDecoderC"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "Sq"
+- !private "4Moya16ProgressResponseV"
+- !private "4Moya8ResponseC"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Moya.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e002577566696c2304e64168a3581503"

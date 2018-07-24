@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CircleViewController"
+provides-nominal:
+- "14RxIssuesSample20CircleViewControllerC"
+provides-member:
+- ["14RxIssuesSample20CircleViewControllerC", ""]
+provides-dynamic-lookup:
+- "circleMoved"
+depends-top-level:
+- !private "*"
+- !private "??"
+- "AssignmentPrecedence"
+- "CGPoint"
+- !private "CGRect"
+- "CGSize"
+- "CircleViewController"
+- "DisposeBag"
+- !private "IntegerLiteralType"
+- "Observable"
+- !private "StringLiteralType"
+- "UIColor"
+- "UIPanGestureRecognizer"
+- "UIView"
+- "UIViewController"
+- "Variable"
+- !private "view"
+depends-member:
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- ["SC7CGPointV", "zero"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGSizeV", "init"]
+- ["14RxIssuesSample20CircleViewControllerC", "CGPoint"]
+- !private ["14RxIssuesSample20CircleViewControllerC", "CGRect"]
+- ["14RxIssuesSample20CircleViewControllerC", "CGSize"]
+- ["14RxIssuesSample20CircleViewControllerC", "DisposeBag"]
+- ["14RxIssuesSample20CircleViewControllerC", "Observable"]
+- ["14RxIssuesSample20CircleViewControllerC", "UIColor"]
+- ["14RxIssuesSample20CircleViewControllerC", "UIPanGestureRecognizer"]
+- ["14RxIssuesSample20CircleViewControllerC", "UIView"]
+- ["14RxIssuesSample20CircleViewControllerC", "Variable"]
+- !private ["14RxIssuesSample20CircleViewControllerC", "backgroundColorObservable"]
+- ["14RxIssuesSample20CircleViewControllerC", "centerVariable"]
+- !private ["14RxIssuesSample20CircleViewControllerC", "circleMoved"]
+- ["14RxIssuesSample20CircleViewControllerC", "circleSizeObservable"]
+- !private ["14RxIssuesSample20CircleViewControllerC", "circleView"]
+- ["14RxIssuesSample20CircleViewControllerC", "deinit"]
+- ["14RxIssuesSample20CircleViewControllerC", "disposeBag"]
+- ["14RxIssuesSample20CircleViewControllerC", "init"]
+- ["14RxIssuesSample20CircleViewControllerC", "setup"]
+- !private ["14RxIssuesSample20CircleViewControllerC", "view"]
+- ["14RxIssuesSample20CircleViewControllerC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "element"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s17CustomReflectableP", "zero"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- ["s9DecodableP", "zero"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- ["s9EquatableP", "zero"]
+- !private ["7RxSwift5EventO", "element"]
+- !private ["7RxSwift16EventConvertibleP", "element"]
+- !private ["s23ExpressibleByNilLiteralP", "subscribe"]
+- ["s23ExpressibleByNilLiteralP", "zero"]
+- !private ["SQ", "subscribe"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "x"]
+- !private ["7RxCocoa16KVORepresentableP", "y"]
+- ["7RxCocoa16KVORepresentableP", "zero"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- ["Sq", "zero"]
+- !private ["7RxSwift8VariableC", "asObservable"]
+- ["7RxSwift8VariableC", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscribe"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "14RxIssuesSample20CircleViewControllerC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s9DecodableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- "s23ExpressibleByNilLiteralP"
+- !private "SQ"
+- "7RxCocoa16KVORepresentableP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- "Sq"
+- "7RxSwift8VariableC"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoa.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Moya.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxMoya.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7c41f112e4ec681863156fb52ed0b4e7"

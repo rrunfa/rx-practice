@@ -1,0 +1,312 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Manager"
+- "Request"
+- "DownloadRequest"
+- "UploadRequest"
+- "DataRequest"
+- "URLRequestConvertible"
+- "Method"
+- "ParameterEncoding"
+- "JSONEncoding"
+- "URLEncoding"
+- "PropertyListEncoding"
+- "RequestMultipartFormData"
+- "MultipartFormDataEncodingResult"
+- "DownloadDestination"
+- "CancellableToken"
+- "RequestableCompletion"
+- "Requestable"
+provides-nominal:
+- "9Alamofire7RequestC"
+- "4Moya16CancellableTokenC"
+- "4Moya11RequestableP"
+- "9Alamofire11DataRequestC"
+- "9Alamofire15DownloadRequestC"
+provides-member:
+- ["9Alamofire7RequestC", ""]
+- ["4Moya16CancellableTokenC", ""]
+- ["4Moya11RequestableP", ""]
+- ["9Alamofire11DataRequestC", ""]
+- ["9Alamofire15DownloadRequestC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "Alamofire"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Cancellable"
+- "CancellableToken"
+- "CustomDebugStringConvertible"
+- "Data"
+- "DataRequest"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- !private "DispatchTime"
+- "DownloadDestination"
+- "DownloadRequest"
+- "HTTPURLResponse"
+- "JSONEncoding"
+- "Manager"
+- "Method"
+- "MultipartFormDataEncodingResult"
+- "ParameterEncoding"
+- "PropertyListEncoding"
+- "Request"
+- "RequestMultipartFormData"
+- "RequestType"
+- "Requestable"
+- "RequestableCompletion"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "URLEncoding"
+- "URLRequest"
+- "URLRequestConvertible"
+- "UploadRequest"
+- "Void"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "wait"]
+- ["4Moya11CancellableP", "DispatchSemaphore"]
+- !private ["4Moya11CancellableP", "DispatchTime"]
+- ["4Moya11CancellableP", ""]
+- ["4Moya11CancellableP", "cancel"]
+- !private ["4Moya11CancellableP", "cancelAction"]
+- ["4Moya11CancellableP", "debugDescription"]
+- ["4Moya11CancellableP", "isCancelled"]
+- !private ["4Moya11CancellableP", "lock"]
+- !private ["4Moya11CancellableP", "request"]
+- ["4Moya16CancellableTokenC", "DispatchSemaphore"]
+- !private ["4Moya16CancellableTokenC", "DispatchTime"]
+- ["4Moya16CancellableTokenC", "Request"]
+- ["4Moya16CancellableTokenC", "String"]
+- ["4Moya16CancellableTokenC", "Void"]
+- ["4Moya16CancellableTokenC", "cancel"]
+- ["4Moya16CancellableTokenC", "cancelAction"]
+- ["4Moya16CancellableTokenC", "debugDescription"]
+- ["4Moya16CancellableTokenC", "deinit"]
+- ["4Moya16CancellableTokenC", "init"]
+- ["4Moya16CancellableTokenC", "isCancelled"]
+- !private ["4Moya16CancellableTokenC", "lock"]
+- ["4Moya16CancellableTokenC", "request"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "distantFuture"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "DispatchSemaphore"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- ["s28CustomDebugStringConvertibleP", "DownloadFileDestination"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "authenticate"]
+- ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAction"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "request"]
+- ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DownloadFileDestination"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "authenticate"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "request"]
+- ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- ["9Alamofire11DataRequestC", "DispatchQueue"]
+- ["9Alamofire11DataRequestC", "RequestableCompletion"]
+- ["9Alamofire11DataRequestC", "deinit"]
+- ["9Alamofire11DataRequestC", "response"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["9Alamofire19DefaultDataResponseV", "data"]
+- !private ["9Alamofire19DefaultDataResponseV", "error"]
+- !private ["9Alamofire19DefaultDataResponseV", "request"]
+- !private ["9Alamofire19DefaultDataResponseV", "response"]
+- !private ["9Alamofire23DefaultDownloadResponseV", "error"]
+- !private ["9Alamofire23DefaultDownloadResponseV", "request"]
+- !private ["9Alamofire23DefaultDownloadResponseV", "response"]
+- ["So14DispatchObjectC", "init"]
+- !private ["So14DispatchObjectC", "signal"]
+- !private ["So14DispatchObjectC", "wait"]
+- ["So17DispatchSemaphoreC", "init"]
+- !private ["So17DispatchSemaphoreC", "signal"]
+- !private ["So17DispatchSemaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- ["9Alamofire15DownloadRequestC", "DispatchQueue"]
+- ["9Alamofire15DownloadRequestC", "DownloadFileDestination"]
+- ["9Alamofire15DownloadRequestC", "RequestableCompletion"]
+- ["9Alamofire15DownloadRequestC", "deinit"]
+- ["9Alamofire15DownloadRequestC", "response"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "distantFuture"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "signal"]
+- !private ["s9EquatableP", "wait"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "signal"]
+- !private ["s8HashableP", "wait"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "wait"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "signal"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["9Alamofire7RequestC", "DispatchQueue"]
+- ["9Alamofire7RequestC", "DownloadFileDestination"]
+- ["9Alamofire7RequestC", "RequestableCompletion"]
+- ["9Alamofire7RequestC", "authenticate"]
+- !private ["9Alamofire7RequestC", "cancel"]
+- !private ["9Alamofire7RequestC", "debugDescription"]
+- ["9Alamofire7RequestC", "deinit"]
+- ["9Alamofire7RequestC", "request"]
+- ["9Alamofire7RequestC", "response"]
+- ["4Moya11RequestTypeP", "DownloadFileDestination"]
+- ["4Moya11RequestTypeP", ""]
+- ["4Moya11RequestTypeP", "authenticate"]
+- !private ["4Moya11RequestTypeP", "cancel"]
+- !private ["4Moya11RequestTypeP", "debugDescription"]
+- ["4Moya11RequestTypeP", "request"]
+- ["4Moya11RequestTypeP", "response"]
+- ["4Moya11RequestableP", "DispatchQueue"]
+- ["4Moya11RequestableP", "DownloadFileDestination"]
+- ["4Moya11RequestableP", "RequestableCompletion"]
+- ["4Moya11RequestableP", ""]
+- ["4Moya11RequestableP", "response"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "error"]
+- !private ["9Alamofire8ResponseP", "request"]
+- !private ["9Alamofire8ResponseP", "response"]
+- !private ["s8SequenceP", "init"]
+- ["9Alamofire14SessionManagerC", "MultipartFormDataEncodingResult"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "4Moya11CancellableP"
+- "4Moya16CancellableTokenC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- !private "s9DecodableP"
+- !private "9Alamofire19DefaultDataResponseV"
+- !private "9Alamofire23DefaultDownloadResponseV"
+- "So14DispatchObjectC"
+- "So17DispatchSemaphoreC"
+- !private "8Dispatch0A4TimeV"
+- "9Alamofire15DownloadRequestC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So9OS_objectC"
+- !private "s26RangeReplaceableCollectionP"
+- "9Alamofire7RequestC"
+- "4Moya11RequestTypeP"
+- "4Moya11RequestableP"
+- !private "9Alamofire8ResponseP"
+- !private "s8SequenceP"
+- "9Alamofire14SessionManagerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5cfcfcae922ef948459255504f68409e"

@@ -1,0 +1,107 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/master.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/AFError.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/AFError.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/AFError.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/AFError~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/AFError.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Alamofire.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Alamofire.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Alamofire.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Alamofire~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Alamofire.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/DispatchQueue+Alamofire.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/DispatchQueue+Alamofire.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/DispatchQueue+Alamofire.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/DispatchQueue+Alamofire~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/DispatchQueue+Alamofire.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/MultipartFormData.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/MultipartFormData.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/MultipartFormData.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/MultipartFormData~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/MultipartFormData.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/NetworkReachabilityManager.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/NetworkReachabilityManager.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/NetworkReachabilityManager.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/NetworkReachabilityManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/NetworkReachabilityManager.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Notifications.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Notifications.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Notifications.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Notifications~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Notifications.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ParameterEncoding.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ParameterEncoding.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ParameterEncoding.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ParameterEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ParameterEncoding.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Request.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Request.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Request.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Request.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Response.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Response.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Response.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Response.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ResponseSerialization.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ResponseSerialization.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ResponseSerialization.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ResponseSerialization~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ResponseSerialization.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Result.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Result.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Result.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Result.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ServerTrustPolicy.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ServerTrustPolicy.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ServerTrustPolicy.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ServerTrustPolicy~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/ServerTrustPolicy.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/SessionDelegate.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionDelegate.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionDelegate.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionDelegate.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/SessionManager.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionManager.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionManager.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/SessionManager.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/TaskDelegate.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/TaskDelegate.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/TaskDelegate.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/TaskDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/TaskDelegate.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Timeline.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Timeline.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Timeline.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Timeline~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Timeline.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Validation.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Validation.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Validation.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Validation~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.build/Validation.swiftdeps"
+  }
+}

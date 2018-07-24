@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Completion"
+- "ProgressBlock"
+- "ProgressResponse"
+- "MoyaProviderType"
+- "MoyaProvider"
+- "StubBehavior"
+- "convertResponseToResult"
+provides-nominal:
+- "4Moya16ProgressResponseV"
+- "4Moya0A12ProviderTypeP"
+- "4Moya0A8ProviderC"
+- "4Moya12StubBehaviorO"
+provides-member:
+- ["4Moya16ProgressResponseV", ""]
+- ["4Moya0A12ProviderTypeP", ""]
+- ["4Moya0A8ProviderC", ""]
+- ["4Moya12StubBehaviorO", ""]
+- ["4Moya0A8ProviderC", "neverStub"]
+- ["4Moya0A8ProviderC", "immediatelyStub"]
+- ["4Moya0A8ProviderC", "delayedStub"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "=="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CDouble"
+- "Cancellable"
+- "CancellableToken"
+- "Completion"
+- "Data"
+- "DispatchQueue"
+- !private "DispatchTime"
+- "Double"
+- "Endpoint"
+- "HTTPURLResponse"
+- !private "Int64"
+- "Manager"
+- "Moya"
+- "MoyaError"
+- "MoyaProvider"
+- "MoyaProviderType"
+- !private "NSEC_PER_SEC"
+- !private "NSError"
+- !private "NSURLErrorDomain"
+- !private "NSURLErrorUnknown"
+- "PluginType"
+- "Progress"
+- "ProgressBlock"
+- "ProgressResponse"
+- "Response"
+- "Result"
+- !private "StringLiteralType"
+- "StubBehavior"
+- "Swift"
+- "TargetType"
+- "TimeInterval"
+- "URLRequest"
+- "Void"
+- "convertResponseToResult"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "fractionCompleted"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["4Moya11CancellableP", "init"]
+- !private ["4Moya16CancellableTokenC", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "fractionCompleted"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "asyncAfter"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "fractionCompleted"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "asyncAfter"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "none"]
+- ["s9DecodableP", "some"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "asyncAfter"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "asyncAfter"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "asyncAfter"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "none"]
+- ["s9EncodableP", "some"]
+- ["4Moya8EndpointC", "deinit"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "asyncAfter"]
+- !private ["s9EquatableP", "fractionCompleted"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "now"]
+- ["s9EquatableP", "some"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "underlying"]
+- !private ["6Result16ErrorConvertibleP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "asyncAfter"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "asyncAfter"]
+- !private ["s8HashableP", "fractionCompleted"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s5Int64V", "init"]
+- !private ["10Foundation14LocalizedErrorP", "underlying"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["4Moya0A5ErrorO", "deinit"]
+- !private ["4Moya0A5ErrorO", "underlying"]
+- ["4Moya0A8ProviderC", "Bool"]
+- !private ["4Moya0A8ProviderC", "CDouble"]
+- ["4Moya0A8ProviderC", "Cancellable"]
+- ["4Moya0A8ProviderC", "CancellableToken"]
+- ["4Moya0A8ProviderC", "Completion"]
+- ["4Moya0A8ProviderC", "DispatchQueue"]
+- !private ["4Moya0A8ProviderC", "DispatchTime"]
+- !private ["4Moya0A8ProviderC", "Double"]
+- ["4Moya0A8ProviderC", "Endpoint"]
+- ["4Moya0A8ProviderC", "EndpointClosure"]
+- !private ["4Moya0A8ProviderC", "Int64"]
+- ["4Moya0A8ProviderC", "Manager"]
+- ["4Moya0A8ProviderC", "Moya"]
+- ["4Moya0A8ProviderC", "MoyaError"]
+- !private ["4Moya0A8ProviderC", "MoyaProvider"]
+- !private ["4Moya0A8ProviderC", "NSEC_PER_SEC"]
+- ["4Moya0A8ProviderC", "PluginType"]
+- ["4Moya0A8ProviderC", "ProgressBlock"]
+- ["4Moya0A8ProviderC", "RequestClosure"]
+- ["4Moya0A8ProviderC", "RequestResultClosure"]
+- ["4Moya0A8ProviderC", "Result"]
+- ["4Moya0A8ProviderC", "StubClosure"]
+- ["4Moya0A8ProviderC", "Target"]
+- ["4Moya0A8ProviderC", "TimeInterval"]
+- ["4Moya0A8ProviderC", "URLRequest"]
+- ["4Moya0A8ProviderC", "Void"]
+- ["4Moya0A8ProviderC", "_Default_Target"]
+- ["4Moya0A8ProviderC", "callbackQueue"]
+- !private ["4Moya0A8ProviderC", "createStubFunction"]
+- !private ["4Moya0A8ProviderC", "defaultAlamofireManager"]
+- !private ["4Moya0A8ProviderC", "defaultEndpointMapping"]
+- !private ["4Moya0A8ProviderC", "defaultRequestMapping"]
+- ["4Moya0A8ProviderC", "deinit"]
+- ["4Moya0A8ProviderC", "delayedStub"]
+- ["4Moya0A8ProviderC", "endpoint"]
+- ["4Moya0A8ProviderC", "endpointClosure"]
+- !private ["4Moya0A8ProviderC", "fatalError"]
+- ["4Moya0A8ProviderC", "immediatelyStub"]
+- ["4Moya0A8ProviderC", "inflightRequests"]
+- ["4Moya0A8ProviderC", "init"]
+- ["4Moya0A8ProviderC", "manager"]
+- ["4Moya0A8ProviderC", "neverStub"]
+- !private ["4Moya0A8ProviderC", "notifyPluginsOfImpendingStub"]
+- ["4Moya0A8ProviderC", "plugins"]
+- ["4Moya0A8ProviderC", "request"]
+- ["4Moya0A8ProviderC", "requestClosure"]
+- !private ["4Moya0A8ProviderC", "requestNormal"]
+- ["4Moya0A8ProviderC", "stubClosure"]
+- ["4Moya0A8ProviderC", "stubRequest"]
+- ["4Moya0A8ProviderC", "trackInflights"]
+- !private ["4Moya0A12ProviderTypeP", "CDouble"]
+- ["4Moya0A12ProviderTypeP", "Cancellable"]
+- !private ["4Moya0A12ProviderTypeP", "CancellableToken"]
+- ["4Moya0A12ProviderTypeP", "DispatchQueue"]
+- !private ["4Moya0A12ProviderTypeP", "DispatchTime"]
+- !private ["4Moya0A12ProviderTypeP", "Double"]
+- !private ["4Moya0A12ProviderTypeP", "Int64"]
+- ["4Moya0A12ProviderTypeP", "Moya"]
+- !private ["4Moya0A12ProviderTypeP", "MoyaProvider"]
+- !private ["4Moya0A12ProviderTypeP", "NSEC_PER_SEC"]
+- ["4Moya0A12ProviderTypeP", "Target"]
+- ["4Moya0A12ProviderTypeP", "TargetType"]
+- ["4Moya0A12ProviderTypeP", ""]
+- ["4Moya0A12ProviderTypeP", "_Default_Target"]
+- !private ["4Moya0A12ProviderTypeP", "callbackQueue"]
+- !private ["4Moya0A12ProviderTypeP", "createStubFunction"]
+- !private ["4Moya0A12ProviderTypeP", "defaultAlamofireManager"]
+- !private ["4Moya0A12ProviderTypeP", "defaultEndpointMapping"]
+- !private ["4Moya0A12ProviderTypeP", "defaultRequestMapping"]
+- !private ["4Moya0A12ProviderTypeP", "endpointClosure"]
+- !private ["4Moya0A12ProviderTypeP", "fatalError"]
+- !private ["4Moya0A12ProviderTypeP", "manager"]
+- !private ["4Moya0A12ProviderTypeP", "neverStub"]
+- !private ["4Moya0A12ProviderTypeP", "notifyPluginsOfImpendingStub"]
+- !private ["4Moya0A12ProviderTypeP", "plugins"]
+- ["4Moya0A12ProviderTypeP", "request"]
+- !private ["4Moya0A12ProviderTypeP", "requestClosure"]
+- !private ["4Moya0A12ProviderTypeP", "requestNormal"]
+- !private ["4Moya0A12ProviderTypeP", "stubClosure"]
+- !private ["4Moya0A12ProviderTypeP", "trackInflights"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "fractionCompleted"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "asyncAfter"]
+- !private ["So16NSObjectProtocolP", "fractionCompleted"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "asyncAfter"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["So8ProgressC", "fractionCompleted"]
+- ["4Moya16ProgressResponseV", "Bool"]
+- ["4Moya16ProgressResponseV", "Double"]
+- ["4Moya16ProgressResponseV", "Progress"]
+- ["4Moya16ProgressResponseV", "Response"]
+- ["4Moya16ProgressResponseV", "completed"]
+- ["4Moya16ProgressResponseV", "init"]
+- ["4Moya16ProgressResponseV", "progress"]
+- ["4Moya16ProgressResponseV", "progressObject"]
+- ["4Moya16ProgressResponseV", "response"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Moya8ResponseC", "deinit"]
+- !private ["4Moya8ResponseC", "init"]
+- !private ["6ResultAAO", "failure"]
+- !private ["6ResultAAO", "success"]
+- !private ["6Result0A8ProtocolP", "failure"]
+- !private ["6Result0A8ProtocolP", "success"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["4Moya12StubBehaviorO", "TimeInterval"]
+- ["4Moya12StubBehaviorO", "delayed"]
+- ["4Moya12StubBehaviorO", "immediate"]
+- ["4Moya12StubBehaviorO", "never"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fractionCompleted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "asyncAfter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "4Moya11CancellableP"
+- !private "4Moya16CancellableTokenC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- "s9EncodableP"
+- "4Moya8EndpointC"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "6Result16ErrorConvertibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "So15HTTPURLResponseC"
+- !private "s8HashableP"
+- !private "s5Int64V"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "4Moya0A5ErrorO"
+- "4Moya0A8ProviderC"
+- "4Moya0A12ProviderTypeP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- "Sq"
+- !private "So8ProgressC"
+- "4Moya16ProgressResponseV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Moya8ResponseC"
+- !private "6ResultAAO"
+- !private "6Result0A8ProtocolP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "4Moya12StubBehaviorO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So11URLResponseC"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2adeca17e4458c071bcebd87795c3a38"

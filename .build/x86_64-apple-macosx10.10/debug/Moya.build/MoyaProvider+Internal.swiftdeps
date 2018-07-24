@@ -1,0 +1,612 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9Alamofire10HTTPMethodO", ""]
+- ["4Moya0A8ProviderC", ""]
+- ["9Alamofire10HTTPMethodO", "supportsMultipart"]
+- ["4Moya0A8ProviderC", "requestNormal"]
+- ["4Moya0A8ProviderC", "cancelCompletion"]
+- ["4Moya0A8ProviderC", "createStubFunction"]
+- ["4Moya0A8ProviderC", "notifyPluginsOfImpendingStub"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Cancellable"
+- "CancellableToken"
+- "CancellableWrapper"
+- "CastingPrecedence"
+- "Completion"
+- !private "DataRequest"
+- "DispatchQueue"
+- "DownloadDestination"
+- !private "DownloadRequest"
+- "Endpoint"
+- "Method"
+- "Moya"
+- !private "MoyaError"
+- "MoyaProvider"
+- "MultipartFormData"
+- !private "NSError"
+- !private "NSURLErrorCancelled"
+- !private "NSURLErrorDomain"
+- "PluginType"
+- !private "Progress"
+- "ProgressBlock"
+- !private "ProgressResponse"
+- "Request"
+- !private "RequestMultipartFormData"
+- "Requestable"
+- !private "RequestableCompletion"
+- !private "Response"
+- !private "Result"
+- "StubBehavior"
+- "TernaryPrecedence"
+- "URL"
+- "URLRequest"
+- !private "URLRequestConvertible"
+- !private "UploadRequest"
+- "Void"
+- !private "convertResponseToResult"
+- !private "fatalError"
+- !private "objc_sync_enter"
+- !private "objc_sync_exit"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "reduce"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["4Moya11CancellableP", "init"]
+- !private ["4Moya11CancellableP", "innerCancellable"]
+- !private ["4Moya11CancellableP", "isCancelled"]
+- !private ["4Moya16CancellableTokenC", "deinit"]
+- !private ["4Moya16CancellableTokenC", "init"]
+- !private ["4Moya16CancellableTokenC", "isCancelled"]
+- !private ["4Moya18CancellableWrapperC", "deinit"]
+- !private ["4Moya18CancellableWrapperC", "init"]
+- !private ["4Moya18CancellableWrapperC", "innerCancellable"]
+- !private ["4Moya18CancellableWrapperC", "isCancelled"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "progress"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "uploadProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "downloadProgress"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "progress"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "uploadProgress"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["9Alamofire11DataRequestC", "cancel"]
+- !private ["9Alamofire11DataRequestC", "deinit"]
+- !private ["9Alamofire11DataRequestC", "downloadProgress"]
+- !private ["9Alamofire11DataRequestC", "progress"]
+- !private ["9Alamofire11DataRequestC", "uploadProgress"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["9Alamofire15DownloadRequestC", "deinit"]
+- !private ["9Alamofire15DownloadRequestC", "downloadProgress"]
+- !private ["9Alamofire15DownloadRequestC", "progress"]
+- !private ["9Alamofire15DownloadRequestC", "validate"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["4Moya8EndpointC", "deinit"]
+- !private ["4Moya8EndpointC", "method"]
+- !private ["4Moya8EndpointC", "sampleResponseClosure"]
+- !private ["4Moya8EndpointC", "task"]
+- !private ["4Moya22EndpointSampleResponseO", "networkError"]
+- !private ["4Moya22EndpointSampleResponseO", "networkResponse"]
+- !private ["4Moya22EndpointSampleResponseO", "response"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "async"]
+- ["s9EquatableP", "connect"]
+- !private ["s9EquatableP", "contains"]
+- ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "get"]
+- ["s9EquatableP", "head"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "method"]
+- ["s9EquatableP", "options"]
+- ["s9EquatableP", "patch"]
+- ["s9EquatableP", "post"]
+- ["s9EquatableP", "put"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "removeValue"]
+- !private ["s9EquatableP", "sampleResponseClosure"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s9EquatableP", "statusCodes"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "supportsMultipart"]
+- !private ["s9EquatableP", "task"]
+- ["s9EquatableP", "trace"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "statusCode"]
+- !private ["s5ErrorP", "underlying"]
+- !private ["6Result16ErrorConvertibleP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["9Alamofire10HTTPMethodO", "Bool"]
+- ["9Alamofire10HTTPMethodO", "connect"]
+- ["9Alamofire10HTTPMethodO", "delete"]
+- ["9Alamofire10HTTPMethodO", "get"]
+- ["9Alamofire10HTTPMethodO", "head"]
+- ["9Alamofire10HTTPMethodO", "options"]
+- ["9Alamofire10HTTPMethodO", "patch"]
+- ["9Alamofire10HTTPMethodO", "post"]
+- ["9Alamofire10HTTPMethodO", "put"]
+- ["9Alamofire10HTTPMethodO", "supportsMultipart"]
+- ["9Alamofire10HTTPMethodO", "trace"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- ["s8HashableP", "connect"]
+- ["s8HashableP", "delete"]
+- ["s8HashableP", "get"]
+- ["s8HashableP", "head"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "method"]
+- ["s8HashableP", "options"]
+- ["s8HashableP", "patch"]
+- ["s8HashableP", "post"]
+- ["s8HashableP", "put"]
+- !private ["s8HashableP", "sampleResponseClosure"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s8HashableP", "supportsMultipart"]
+- !private ["s8HashableP", "task"]
+- ["s8HashableP", "trace"]
+- !private ["10Foundation14LocalizedErrorP", "statusCode"]
+- !private ["10Foundation14LocalizedErrorP", "underlying"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["4Moya0A5ErrorO", "deinit"]
+- !private ["4Moya0A5ErrorO", "statusCode"]
+- !private ["4Moya0A5ErrorO", "underlying"]
+- ["4Moya0A8ProviderC", "Cancellable"]
+- ["4Moya0A8ProviderC", "CancellableToken"]
+- ["4Moya0A8ProviderC", "CancellableWrapper"]
+- ["4Moya0A8ProviderC", "Completion"]
+- !private ["4Moya0A8ProviderC", "DataRequest"]
+- ["4Moya0A8ProviderC", "DispatchQueue"]
+- ["4Moya0A8ProviderC", "DownloadDestination"]
+- !private ["4Moya0A8ProviderC", "DownloadRequest"]
+- ["4Moya0A8ProviderC", "Endpoint"]
+- ["4Moya0A8ProviderC", "Moya"]
+- !private ["4Moya0A8ProviderC", "MoyaError"]
+- ["4Moya0A8ProviderC", "MultipartFormData"]
+- !private ["4Moya0A8ProviderC", "NSError"]
+- !private ["4Moya0A8ProviderC", "NSURLErrorCancelled"]
+- !private ["4Moya0A8ProviderC", "NSURLErrorDomain"]
+- ["4Moya0A8ProviderC", "PluginType"]
+- !private ["4Moya0A8ProviderC", "Progress"]
+- ["4Moya0A8ProviderC", "ProgressBlock"]
+- !private ["4Moya0A8ProviderC", "ProgressResponse"]
+- ["4Moya0A8ProviderC", "Request"]
+- !private ["4Moya0A8ProviderC", "RequestMultipartFormData"]
+- ["4Moya0A8ProviderC", "Requestable"]
+- !private ["4Moya0A8ProviderC", "RequestableCompletion"]
+- !private ["4Moya0A8ProviderC", "Result"]
+- ["4Moya0A8ProviderC", "Target"]
+- ["4Moya0A8ProviderC", "URL"]
+- ["4Moya0A8ProviderC", "URLRequest"]
+- !private ["4Moya0A8ProviderC", "URLRequestConvertible"]
+- !private ["4Moya0A8ProviderC", "UploadRequest"]
+- ["4Moya0A8ProviderC", "Void"]
+- ["4Moya0A8ProviderC", "cancelCompletion"]
+- !private ["4Moya0A8ProviderC", "convertResponseToResult"]
+- ["4Moya0A8ProviderC", "createStubFunction"]
+- !private ["4Moya0A8ProviderC", "endpoint"]
+- !private ["4Moya0A8ProviderC", "fatalError"]
+- !private ["4Moya0A8ProviderC", "inflightRequests"]
+- !private ["4Moya0A8ProviderC", "manager"]
+- ["4Moya0A8ProviderC", "notifyPluginsOfImpendingStub"]
+- !private ["4Moya0A8ProviderC", "objc_sync_enter"]
+- !private ["4Moya0A8ProviderC", "objc_sync_exit"]
+- !private ["4Moya0A8ProviderC", "performRequest"]
+- !private ["4Moya0A8ProviderC", "plugins"]
+- !private ["4Moya0A8ProviderC", "requestClosure"]
+- ["4Moya0A8ProviderC", "requestNormal"]
+- !private ["4Moya0A8ProviderC", "sendAlamofireRequest"]
+- !private ["4Moya0A8ProviderC", "sendDownloadRequest"]
+- !private ["4Moya0A8ProviderC", "sendRequest"]
+- !private ["4Moya0A8ProviderC", "sendUploadFile"]
+- !private ["4Moya0A8ProviderC", "sendUploadMultipart"]
+- !private ["4Moya0A8ProviderC", "stubClosure"]
+- !private ["4Moya0A8ProviderC", "stubRequest"]
+- !private ["4Moya0A8ProviderC", "trackInflights"]
+- !private ["4Moya0A12ProviderTypeP", "CancellableToken"]
+- !private ["4Moya0A12ProviderTypeP", "CancellableWrapper"]
+- !private ["4Moya0A12ProviderTypeP", "Moya"]
+- !private ["4Moya0A12ProviderTypeP", "MoyaError"]
+- !private ["4Moya0A12ProviderTypeP", "NSError"]
+- !private ["4Moya0A12ProviderTypeP", "NSURLErrorCancelled"]
+- !private ["4Moya0A12ProviderTypeP", "NSURLErrorDomain"]
+- !private ["4Moya0A12ProviderTypeP", "ProgressResponse"]
+- !private ["4Moya0A12ProviderTypeP", "cancelCompletion"]
+- !private ["4Moya0A12ProviderTypeP", "convertResponseToResult"]
+- !private ["4Moya0A12ProviderTypeP", "endpoint"]
+- !private ["4Moya0A12ProviderTypeP", "fatalError"]
+- !private ["4Moya0A12ProviderTypeP", "inflightRequests"]
+- !private ["4Moya0A12ProviderTypeP", "manager"]
+- !private ["4Moya0A12ProviderTypeP", "objc_sync_enter"]
+- !private ["4Moya0A12ProviderTypeP", "objc_sync_exit"]
+- !private ["4Moya0A12ProviderTypeP", "performRequest"]
+- !private ["4Moya0A12ProviderTypeP", "plugins"]
+- !private ["4Moya0A12ProviderTypeP", "requestClosure"]
+- !private ["4Moya0A12ProviderTypeP", "sendAlamofireRequest"]
+- !private ["4Moya0A12ProviderTypeP", "sendDownloadRequest"]
+- !private ["4Moya0A12ProviderTypeP", "sendRequest"]
+- !private ["4Moya0A12ProviderTypeP", "sendUploadFile"]
+- !private ["4Moya0A12ProviderTypeP", "sendUploadMultipart"]
+- !private ["4Moya0A12ProviderTypeP", "stubClosure"]
+- !private ["4Moya0A12ProviderTypeP", "stubRequest"]
+- !private ["4Moya0A12ProviderTypeP", "trackInflights"]
+- !private ["9Alamofire17MultipartFormDataC", "applyMoyaMultipartFormData"]
+- !private ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "failure"]
+- !private ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "success"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "contains"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So9OS_objectC", "async"]
+- !private ["4Moya10PluginTypeP", "didReceive"]
+- !private ["4Moya10PluginTypeP", "prepare"]
+- !private ["4Moya10PluginTypeP", "process"]
+- !private ["4Moya10PluginTypeP", "willSend"]
+- !private ["4Moya16ProgressResponseV", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "contains"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "contains"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- ["s16RawRepresentableP", "connect"]
+- ["s16RawRepresentableP", "delete"]
+- ["s16RawRepresentableP", "get"]
+- ["s16RawRepresentableP", "head"]
+- ["s16RawRepresentableP", "options"]
+- ["s16RawRepresentableP", "patch"]
+- ["s16RawRepresentableP", "post"]
+- ["s16RawRepresentableP", "put"]
+- !private ["s16RawRepresentableP", "supportsMultipart"]
+- ["s16RawRepresentableP", "trace"]
+- !private ["9Alamofire7RequestC", "cancel"]
+- !private ["9Alamofire7RequestC", "downloadProgress"]
+- !private ["9Alamofire7RequestC", "progress"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "resume"]
+- !private ["9Alamofire7RequestC", "uploadProgress"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["4Moya11RequestTypeP", "cancel"]
+- !private ["4Moya11RequestTypeP", "downloadProgress"]
+- !private ["4Moya11RequestTypeP", "progress"]
+- !private ["4Moya11RequestTypeP", "response"]
+- !private ["4Moya11RequestTypeP", "resume"]
+- !private ["4Moya11RequestTypeP", "uploadProgress"]
+- !private ["4Moya11RequestTypeP", "validate"]
+- !private ["4Moya11RequestableP", "cancel"]
+- !private ["4Moya11RequestableP", "downloadProgress"]
+- !private ["4Moya11RequestableP", "progress"]
+- !private ["4Moya11RequestableP", "response"]
+- !private ["4Moya11RequestableP", "resume"]
+- !private ["4Moya11RequestableP", "uploadProgress"]
+- !private ["4Moya11RequestableP", "validate"]
+- !private ["4Moya8ResponseC", "init"]
+- !private ["4Moya8ResponseC", "statusCode"]
+- !private ["6ResultAAO", "failure"]
+- !private ["6ResultAAO", "success"]
+- !private ["6ResultAAO", "value"]
+- !private ["6Result0A8ProtocolP", "failure"]
+- !private ["6Result0A8ProtocolP", "success"]
+- !private ["6Result0A8ProtocolP", "value"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["9Alamofire14SessionManagerC", "download"]
+- !private ["9Alamofire14SessionManagerC", "request"]
+- !private ["9Alamofire14SessionManagerC", "upload"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["4Moya12StubBehaviorO", "never"]
+- !private ["4Moya10TargetTypeP", "validationType"]
+- ["4Moya4TaskO", "downloadDestination"]
+- ["4Moya4TaskO", "downloadParameters"]
+- ["4Moya4TaskO", "requestCompositeData"]
+- ["4Moya4TaskO", "requestCompositeParameters"]
+- ["4Moya4TaskO", "requestCustomJSONEncodable"]
+- ["4Moya4TaskO", "requestData"]
+- ["4Moya4TaskO", "requestJSONEncodable"]
+- ["4Moya4TaskO", "requestParameters"]
+- ["4Moya4TaskO", "requestPlain"]
+- ["4Moya4TaskO", "uploadCompositeMultipart"]
+- ["4Moya4TaskO", "uploadFile"]
+- ["4Moya4TaskO", "uploadMultipart"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["9Alamofire13UploadRequestC", "uploadProgress"]
+- !private ["9Alamofire13UploadRequestC", "validate"]
+- !private ["4Moya14ValidationTypeO", "statusCodes"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "4Moya11CancellableP"
+- !private "4Moya16CancellableTokenC"
+- !private "4Moya18CancellableWrapperC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "9Alamofire15DownloadRequestC"
+- !private "s9EncodableP"
+- !private "4Moya8EndpointC"
+- !private "4Moya22EndpointSampleResponseO"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "6Result16ErrorConvertibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9Alamofire10HTTPMethodO"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "4Moya0A5ErrorO"
+- "4Moya0A8ProviderC"
+- !private "4Moya0A12ProviderTypeP"
+- !private "9Alamofire17MultipartFormDataC"
+- !private "9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "4Moya10PluginTypeP"
+- !private "4Moya16ProgressResponseV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "4Moya11RequestTypeP"
+- !private "4Moya11RequestableP"
+- !private "4Moya8ResponseC"
+- !private "6ResultAAO"
+- !private "6Result0A8ProtocolP"
+- !private "s8SequenceP"
+- !private "9Alamofire14SessionManagerC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "4Moya12StubBehaviorO"
+- !private "4Moya10TargetTypeP"
+- "4Moya4TaskO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So11URLResponseC"
+- !private "9Alamofire13UploadRequestC"
+- !private "4Moya14ValidationTypeO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d62e0036f26307a3734d70caa5ff5044"

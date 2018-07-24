@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "b44b84ff2a92ac92f9ba7041871520ce"
+build_time: [1532336454, 859165000]
+inputs:
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/MoyaProvider+Rx.swift": [1532335375, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/Observable+Response.swift": [1532335375, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Moya.git--5230867493987625585/Sources/RxMoya/Single+Response.swift": [1532335375, 0]

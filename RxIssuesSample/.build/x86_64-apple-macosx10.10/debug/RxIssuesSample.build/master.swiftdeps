@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f55cb05305ce88eeda201a972bc2c49f"
+build_time: [1532336261, 226878000]
+inputs:
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/CircleViewController.swift": !dirty [1532330054, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/DetailsViewController.swift": !dirty [1532333870, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/IsuuesList/GithubEndpoint.swift": !dirty [1532333705, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/IsuuesList/IssuesListViewController.swift": !dirty [1532334675, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/SupportingFiles/AppDelegate.swift": !dirty [1532319747, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/SupportingFiles/FrameExtension.swift": !dirty [1532326415, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/ViewController.swift": !dirty [1532332996, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/ViewModel.swift": !dirty [1532320811, 0]

@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/master.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/CircleViewController.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/CircleViewController.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/CircleViewController.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/CircleViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/CircleViewController.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/DetailsViewController.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/DetailsViewController.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/DetailsViewController.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/DetailsViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/DetailsViewController.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/IsuuesList/GithubEndpoint.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/GithubEndpoint.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/IsuuesList/GithubEndpoint.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/GithubEndpoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/GithubEndpoint.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/IsuuesList/IssuesListViewController.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/IssuesListViewController.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/IsuuesList/IssuesListViewController.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/IssuesListViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/IssuesListViewController.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/SupportingFiles/AppDelegate.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/AppDelegate.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/SupportingFiles/AppDelegate.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/AppDelegate.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/SupportingFiles/FrameExtension.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/FrameExtension.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/SupportingFiles/FrameExtension.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/FrameExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/FrameExtension.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/ViewController.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewController.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewController.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewController.swiftdeps"
+  },
+  "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/ViewModel.swift": {
+    "dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewModel.d",
+    "object": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewModel.swift.o",
+    "swiftmodule": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxIssuesSample.build/ViewModel.swiftdeps"
+  }
+}

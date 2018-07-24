@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "e6489a39e7ddb0b5ddacab08d93804a6"
+build_time: [1532336444, 617386000]
+inputs:
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/AFError.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Alamofire.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/DispatchQueue+Alamofire.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/MultipartFormData.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/NetworkReachabilityManager.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Notifications.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ParameterEncoding.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Request.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Response.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ResponseSerialization.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Result.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/ServerTrustPolicy.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/SessionDelegate.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/SessionManager.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/TaskDelegate.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Timeline.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Alamofire.git-6801331143877184500/Source/Validation.swift": [1532335379, 0]

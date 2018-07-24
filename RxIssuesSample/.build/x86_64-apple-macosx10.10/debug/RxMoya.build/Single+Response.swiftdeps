@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift17PrimitiveSequenceV", ""]
+- ["7RxSwift17PrimitiveSequenceV", "filter"]
+- ["7RxSwift17PrimitiveSequenceV", "filter"]
+- ["7RxSwift17PrimitiveSequenceV", "filterSuccessfulStatusCodes"]
+- ["7RxSwift17PrimitiveSequenceV", "filterSuccessfulStatusAndRedirectCodes"]
+- ["7RxSwift17PrimitiveSequenceV", "mapImage"]
+- ["7RxSwift17PrimitiveSequenceV", "mapJSON"]
+- ["7RxSwift17PrimitiveSequenceV", "mapString"]
+- ["7RxSwift17PrimitiveSequenceV", "map"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "ClosedRange"
+- "Decodable"
+- "Image"
+- "Int"
+- "JSONDecoder"
+- "PrimitiveSequence"
+- "Response"
+- "Single"
+- "SingleTrait"
+- "String"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "filterSuccessfulStatusCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapImage"]
+- !private ["s28CustomDebugStringConvertibleP", "mapJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "mapString"]
+- !private ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["s9EquatableP", "filterSuccessfulStatusCodes"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "mapImage"]
+- !private ["s9EquatableP", "mapJSON"]
+- !private ["s9EquatableP", "mapString"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ElementType"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "JSONDecoder"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Response"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Single"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SingleTrait"]
+- ["7RxSwift25ObservableConvertibleTypeP", "TraitType"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- ["7RxSwift17PrimitiveSequenceV", "Bool"]
+- ["7RxSwift17PrimitiveSequenceV", "ClosedRange"]
+- ["7RxSwift17PrimitiveSequenceV", "Decodable"]
+- ["7RxSwift17PrimitiveSequenceV", "ElementType"]
+- ["7RxSwift17PrimitiveSequenceV", "Image"]
+- ["7RxSwift17PrimitiveSequenceV", "Int"]
+- ["7RxSwift17PrimitiveSequenceV", "JSONDecoder"]
+- ["7RxSwift17PrimitiveSequenceV", "Response"]
+- ["7RxSwift17PrimitiveSequenceV", "Single"]
+- ["7RxSwift17PrimitiveSequenceV", "SingleTrait"]
+- ["7RxSwift17PrimitiveSequenceV", "String"]
+- ["7RxSwift17PrimitiveSequenceV", "TraitType"]
+- ["7RxSwift17PrimitiveSequenceV", "filter"]
+- ["7RxSwift17PrimitiveSequenceV", "filterSuccessfulStatusAndRedirectCodes"]
+- ["7RxSwift17PrimitiveSequenceV", "filterSuccessfulStatusCodes"]
+- !private ["7RxSwift17PrimitiveSequenceV", "flatMap"]
+- !private ["7RxSwift17PrimitiveSequenceV", "just"]
+- ["7RxSwift17PrimitiveSequenceV", "map"]
+- ["7RxSwift17PrimitiveSequenceV", "mapImage"]
+- ["7RxSwift17PrimitiveSequenceV", "mapJSON"]
+- ["7RxSwift17PrimitiveSequenceV", "mapString"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "ElementType"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "JSONDecoder"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Response"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "Single"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "SingleTrait"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "TraitType"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "flatMap"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "just"]
+- !private ["4Moya8ResponseC", "filter"]
+- !private ["4Moya8ResponseC", "filterSuccessfulStatusAndRedirectCodes"]
+- !private ["4Moya8ResponseC", "filterSuccessfulStatusCodes"]
+- !private ["4Moya8ResponseC", "map"]
+- !private ["4Moya8ResponseC", "mapImage"]
+- !private ["4Moya8ResponseC", "mapJSON"]
+- !private ["4Moya8ResponseC", "mapString"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s9EquatableP"
+- !private "10Foundation11JSONDecoderC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift17PrimitiveSequenceV"
+- "7RxSwift21PrimitiveSequenceTypeP"
+- !private "4Moya8ResponseC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Moya.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Alamofire.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f52d1f5d9f233b80b5d6789d75cd3e7f"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "7a1a8c292029226b8b6e49e02ea8918b"
+build_time: [1532336444, 657403000]
+inputs:
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Result.git-8684547452332391156/Result/Result.swift": [1532335379, 0]
+  "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/Result.git-8684547452332391156/Result/ResultProtocol.swift": [1532335379, 0]

@@ -1,0 +1,572 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "driveOnScheduler"
+- "UIBindingObserver"
+provides-nominal:
+- "7RxCocoa17UIBindingObserverC"
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["So11NSTextFieldC", ""]
+- ["7RxSwift8VariableC", ""]
+- ["7RxCocoa13DelegateProxyC", ""]
+- ["7RxCocoa17UIBindingObserverC", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindNext"]
+- ["So11NSTextFieldC", "createRxDelegateProxy"]
+- ["7RxSwift8VariableC", "asSharedSequence"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- ["7RxSwift8ReactiveV", "image"]
+- ["7RxSwift8VariableC", "asDriver"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "+"
+- "AnyObject"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Binder"
+- !private "CAMediaTimingFunction"
+- !private "CATransition"
+- !private "CastingPrecedence"
+- "DelegateProxy"
+- !private "DispatchQueue"
+- "Disposable"
+- "Driver"
+- "DriverSharingStrategy"
+- "Event"
+- !private "MainScheduler"
+- "NSImage"
+- "NSImageView"
+- "NSTextField"
+- "ObservableType"
+- "ObserverType"
+- "Reactive"
+- "RxTextFieldDelegateProxy"
+- "SchedulerType"
+- "SharedSequence"
+- "SharedSequenceConvertibleType"
+- !private "SharingScheduler"
+- "SharingStrategyProtocol"
+- "String"
+- "StringLiteralType"
+- "UIBindingObserver"
+- "Variable"
+- "Void"
+- !private "bindingError"
+- "driveOnScheduler"
+- !private "errorMessage"
+- !private "fatalError"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
+- !private "kCATransition"
+- !private "print"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "duration"]
+- !private ["So8CAActionP", "init"]
+- !private ["So8CAActionP", "timingFunction"]
+- !private ["So8CAActionP", "type"]
+- !private ["So11CAAnimationC", "duration"]
+- !private ["So11CAAnimationC", "init"]
+- !private ["So11CAAnimationC", "timingFunction"]
+- !private ["So11CAAnimationC", "type"]
+- !private ["So7CALayerC", "add"]
+- !private ["So7CALayerC", "removeAllAnimations"]
+- !private ["So13CAMediaTimingP", "add"]
+- !private ["So13CAMediaTimingP", "duration"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "removeAllAnimations"]
+- !private ["So13CAMediaTimingP", "timingFunction"]
+- !private ["So13CAMediaTimingP", "type"]
+- !private ["So21CAMediaTimingFunctionC", "init"]
+- !private ["So12CATransitionC", "duration"]
+- !private ["So12CATransitionC", "init"]
+- !private ["So12CATransitionC", "timingFunction"]
+- !private ["So12CATransitionC", "type"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMain"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeAllAnimations"]
+- !private ["s7CVarArgP", "timingFunction"]
+- !private ["s7CVarArgP", "type"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllAnimations"]
+- !private ["s28CustomDebugStringConvertibleP", "timingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeAllAnimations"]
+- !private ["s23CustomStringConvertibleP", "timingFunction"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["7RxCocoa13DelegateProxyC", "Delegate"]
+- ["7RxCocoa13DelegateProxyC", "ParentObject"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- !private ["7RxCocoa13DelegateProxyC", "fatalError"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "isMain"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "isMain"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["7RxCocoa21DriverSharingStrategyV", "deinit"]
+- !private ["7RxCocoa21DriverSharingStrategyV", "scheduler"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "duration"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isMain"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "removeAllAnimations"]
+- !private ["s9EquatableP", "timingFunction"]
+- !private ["s9EquatableP", "type"]
+- ["7RxSwift5EventO", "completed"]
+- ["7RxSwift5EventO", "error"]
+- ["7RxSwift5EventO", "next"]
+- ["7RxSwift16EventConvertibleP", "completed"]
+- ["7RxSwift16EventConvertibleP", "error"]
+- ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "duration"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isMain"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "removeAllAnimations"]
+- !private ["s8HashableP", "timingFunction"]
+- !private ["s8HashableP", "type"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["7RxSwift13MainSchedulerC", "ensureExecutingOnScheduler"]
+- ["s10MirrorPathP", "init"]
+- !private ["So15NSAccessibilityP", "fatalError"]
+- !private ["So15NSAccessibilityP", "image"]
+- !private ["So15NSAccessibilityP", "layer"]
+- !private ["So30NSAccessibilityElementProtocolP", "fatalError"]
+- !private ["So30NSAccessibilityElementProtocolP", "image"]
+- !private ["So30NSAccessibilityElementProtocolP", "layer"]
+- !private ["So20NSAccessibilityImageP", "image"]
+- !private ["So20NSAccessibilityImageP", "layer"]
+- !private ["So34NSAccessibilityNavigableStaticTextP", "fatalError"]
+- !private ["So25NSAccessibilityStaticTextP", "fatalError"]
+- !private ["So29NSAnimatablePropertyContainerP", "fatalError"]
+- !private ["So29NSAnimatablePropertyContainerP", "image"]
+- !private ["So29NSAnimatablePropertyContainerP", "layer"]
+- !private ["So25NSAppearanceCustomizationP", "fatalError"]
+- !private ["So25NSAppearanceCustomizationP", "image"]
+- !private ["So25NSAppearanceCustomizationP", "layer"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "duration"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "removeAllAnimations"]
+- !private ["So8NSCodingP", "timingFunction"]
+- !private ["So8NSCodingP", "type"]
+- ["So9NSControlC", "RxTextFieldDelegateProxy"]
+- ["So9NSControlC", "createRxDelegateProxy"]
+- !private ["So9NSControlC", "fatalError"]
+- !private ["So9NSControlC", "image"]
+- !private ["So9NSControlC", "layer"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timingFunction"]
+- !private ["So9NSCopyingP", "type"]
+- !private ["So21NSDraggingDestinationP", "fatalError"]
+- !private ["So21NSDraggingDestinationP", "image"]
+- !private ["So21NSDraggingDestinationP", "layer"]
+- !private ["So11NSImageViewC", "image"]
+- !private ["So11NSImageViewC", "layer"]
+- ["So8NSObjectC", "Delegate"]
+- ["So8NSObjectC", "ParentObject"]
+- ["So8NSObjectC", "RxTextFieldDelegateProxy"]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "assignedProxyFor"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "createRxDelegateProxy"]
+- ["So8NSObjectC", "currentDelegateFor"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMain"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "removeAllAnimations"]
+- !private ["So8NSObjectC", "timingFunction"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isMain"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "removeAllAnimations"]
+- !private ["So16NSObjectProtocolP", "timingFunction"]
+- !private ["So16NSObjectProtocolP", "type"]
+- ["So11NSResponderC", "RxTextFieldDelegateProxy"]
+- ["So11NSResponderC", "createRxDelegateProxy"]
+- !private ["So11NSResponderC", "fatalError"]
+- !private ["So11NSResponderC", "image"]
+- !private ["So11NSResponderC", "layer"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "duration"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "removeAllAnimations"]
+- !private ["So14NSSecureCodingP", "timingFunction"]
+- !private ["So14NSSecureCodingP", "type"]
+- ["So11NSTextFieldC", "RxTextFieldDelegateProxy"]
+- ["So11NSTextFieldC", "createRxDelegateProxy"]
+- !private ["So11NSTextFieldC", "fatalError"]
+- !private ["So18NSTouchBarProviderP", "fatalError"]
+- !private ["So18NSTouchBarProviderP", "image"]
+- !private ["So18NSTouchBarProviderP", "layer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "fatalError"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "image"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "layer"]
+- !private ["So26NSUserInterfaceValidationsP", "fatalError"]
+- ["So6NSViewC", "RxTextFieldDelegateProxy"]
+- ["So6NSViewC", "createRxDelegateProxy"]
+- !private ["So6NSViewC", "fatalError"]
+- !private ["So6NSViewC", "image"]
+- !private ["So6NSViewC", "layer"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "isMain"]
+- !private ["So9OS_objectC", "main"]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "bindTo"]
+- !private ["7RxSwift10ObservableC", "observeOn"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Disposable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "MainScheduler"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ObserverType"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Self"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SharingStrategy"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Variable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Void"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bindTo"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "drive"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "errorMessage"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "print"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- ["7RxSwift14ObservableTypeP", "Disposable"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "ObserverType"]
+- ["7RxSwift14ObservableTypeP", "Self"]
+- ["7RxSwift14ObservableTypeP", "Variable"]
+- ["7RxSwift14ObservableTypeP", "Void"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+- ["7RxSwift14ObservableTypeP", "bindNext"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "observeOn"]
+- !private ["7RxSwift14ObservableTypeP", "print"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "AnyObserver"]
+- !private ["7RxSwift12ObserverTypeP", "DispatchQueue"]
+- ["7RxSwift12ObserverTypeP", "E"]
+- !private ["7RxSwift12ObserverTypeP", "UIElement"]
+- ["7RxSwift12ObserverTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "binding"]
+- !private ["7RxSwift12ObserverTypeP", "bindingError"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- ["7RxSwift12ObserverTypeP", "on"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["7RxSwift8ReactiveV", "Binder"]
+- !private ["7RxSwift8ReactiveV", "CAMediaTimingFunction"]
+- !private ["7RxSwift8ReactiveV", "CATransition"]
+- ["7RxSwift8ReactiveV", "NSImage"]
+- ["7RxSwift8ReactiveV", "NSImageView"]
+- ["7RxSwift8ReactiveV", "String"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "image"]
+- !private ["7RxSwift8ReactiveV", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["7RxSwift8ReactiveV", "kCATransition"]
+- !private ["7RxSwift18ReactiveCompatibleP", "add"]
+- !private ["7RxSwift18ReactiveCompatibleP", "async"]
+- !private ["7RxSwift18ReactiveCompatibleP", "duration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "image"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isMain"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "removeAllAnimations"]
+- !private ["7RxSwift18ReactiveCompatibleP", "timingFunction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "type"]
+- !private ["7RxSwift13SchedulerTypeP", "ensureExecutingOnScheduler"]
+- ["s8SequenceP", "init"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["7RxCocoa14SharedSequenceV", "init"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "Disposable"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "E"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "MainScheduler"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "SharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "Variable"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "errorMessage"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "init"]
+- !private ["7RxCocoa16SharingSchedulerO", "mock"]
+- !private ["7RxCocoa23SharingStrategyProtocolP", "scheduler"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["7RxCocoa17UIBindingObserverC", "AnyObserver"]
+- !private ["7RxCocoa17UIBindingObserverC", "DispatchQueue"]
+- ["7RxCocoa17UIBindingObserverC", "E"]
+- ["7RxCocoa17UIBindingObserverC", "Event"]
+- ["7RxCocoa17UIBindingObserverC", "UIElement"]
+- ["7RxCocoa17UIBindingObserverC", "UIElementType"]
+- ["7RxCocoa17UIBindingObserverC", "Value"]
+- ["7RxCocoa17UIBindingObserverC", "Void"]
+- ["7RxCocoa17UIBindingObserverC", "asObserver"]
+- ["7RxCocoa17UIBindingObserverC", "binding"]
+- !private ["7RxCocoa17UIBindingObserverC", "bindingError"]
+- ["7RxCocoa17UIBindingObserverC", "deinit"]
+- ["7RxCocoa17UIBindingObserverC", "init"]
+- ["7RxCocoa17UIBindingObserverC", "on"]
+- ["7RxSwift8VariableC", "Driver"]
+- !private ["7RxSwift8VariableC", "DriverSharingStrategy"]
+- ["7RxSwift8VariableC", "E"]
+- ["7RxSwift8VariableC", "SharedSequence"]
+- ["7RxSwift8VariableC", "SharingStrategyProtocol"]
+- ["7RxSwift8VariableC", "asDriver"]
+- !private ["7RxSwift8VariableC", "asObservable"]
+- ["7RxSwift8VariableC", "asSharedSequence"]
+- !private ["7RxSwift8VariableC", "value"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllAnimations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["So16_RXDelegateProxyC", "Delegate"]
+- ["So16_RXDelegateProxyC", "ParentObject"]
+- ["So16_RXDelegateProxyC", "assignedProxyFor"]
+- ["So16_RXDelegateProxyC", "currentDelegateFor"]
+- !private ["So16_RXDelegateProxyC", "fatalError"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- "s23BidirectionalCollectionP"
+- !private "7RxCocoa6BinderV"
+- !private "Sb"
+- !private "So8CAActionP"
+- !private "So11CAAnimationC"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "So21CAMediaTimingFunctionC"
+- !private "So12CATransitionC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "7RxCocoa13DelegateProxyC"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "7RxCocoa21DriverSharingStrategyV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "7RxSwift5EventO"
+- "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- !private "7RxSwift13MainSchedulerC"
+- "s10MirrorPathP"
+- !private "So15NSAccessibilityP"
+- !private "So30NSAccessibilityElementProtocolP"
+- !private "So20NSAccessibilityImageP"
+- !private "So34NSAccessibilityNavigableStaticTextP"
+- !private "So25NSAccessibilityStaticTextP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So8NSCodingP"
+- "So9NSControlC"
+- !private "So9NSCopyingP"
+- !private "So21NSDraggingDestinationP"
+- !private "So11NSImageViewC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- !private "So14NSSecureCodingP"
+- "So11NSTextFieldC"
+- !private "So18NSTouchBarProviderP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- "So6NSViewC"
+- !private "So9OS_objectC"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- "s26RangeReplaceableCollectionP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift13SchedulerTypeP"
+- "s8SequenceP"
+- !private "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "7RxCocoa14SharedSequenceV"
+- "7RxCocoa29SharedSequenceConvertibleTypeP"
+- !private "7RxCocoa16SharingSchedulerO"
+- !private "7RxCocoa23SharingStrategyProtocolP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7RxCocoa17UIBindingObserverC"
+- "7RxSwift8VariableC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "So16_RXDelegateProxyC"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/rrunfa/Desktop/RxIssuesSample/.build/x86_64-apple-macosx10.10/debug/QuickSpecBase.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fe7ea1ae45ddc5f26a98fec449400948"
